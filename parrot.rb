@@ -4,9 +4,9 @@
 def parrot(string = "Squawk!")
   if string == " "
     puts "#{string}"
-    return "#{string}"
+    "#{string}"
   else
     puts "Pretty bird!"
-    return "Pretty bird!"
+    "Pretty bird!"
   end
 end
